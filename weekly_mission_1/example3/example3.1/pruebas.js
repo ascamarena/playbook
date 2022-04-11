@@ -1,1 +1,3 @@
-console.log("seguimos probando")
+module.exports = (msj) => {
+    console.log(`Hola! ${msj}`)
+}
