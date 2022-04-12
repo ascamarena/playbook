@@ -1,1 +1,4 @@
-console.log("la practica hace al maestro")
+module.exports = (msj) => {
+    let salida = 4+4
+    console.log(`Salida es ${salida}`)
+}
