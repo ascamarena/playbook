@@ -1,1 +1,3 @@
-cosole.log("si se puede!!!!")
+module.exports = (años) => {
+    x = 68
+}
