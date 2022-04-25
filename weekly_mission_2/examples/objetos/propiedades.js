@@ -24,5 +24,5 @@ function myCat (nombre, edad, color, vivo){
 var individuo_1 = new myCat("Juan", 8, "Black", true);
 var individuo_2 = new myCat("Kat",2,"White",true);
 
-console.log('Ficha Gato 1: ' + individuo_1)
-console.log('Ficha Gato 2: ' + individuo_2)
+console.log(`¿El gato está vivo?  ${individuo_1.vivo}`)
+console.log('Color del gato 2: ' + individuo_2.color)
