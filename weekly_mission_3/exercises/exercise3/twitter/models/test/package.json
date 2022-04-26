@@ -1,0 +1,14 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Actividad 3 de la semana 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ascamarena",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.1"
+  }
+}
