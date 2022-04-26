@@ -1,6 +1,10 @@
-describe("Esto es una prueba!", () => {
-    test('Caso de prueba 1', () => {
-        const result = 1 + 2
-        expect(result).toBe(3);
+const Ajolonauta = require('../app/Ajolonauta')
+
+describe("Probando lo visto en el live", () => {
+    test('Creación de objeto', () => {
+        
+        const woopa = new Ajolonauta("Woopa")
+
+        expect(woopa.name).toBe("Woopa");
     });
 })
