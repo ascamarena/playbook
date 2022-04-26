@@ -1,0 +1,14 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "Vamos a aplicar TDD para diseño de SW",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ascamarena",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.1"
+  }
+}
