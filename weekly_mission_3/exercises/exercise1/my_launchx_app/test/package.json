@@ -1,0 +1,15 @@
+{
+  "name": "creacion_proyectos_js",
+  "version": "1.0.0",
+  "description": "En esta ocasión realizaremos el ejercicio propuesto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "@ascamarena",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.1"
+  }
+}
