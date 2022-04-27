@@ -1,0 +1,17 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Practicas semana 3",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "ascamarena",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.2"
+  }
+}
