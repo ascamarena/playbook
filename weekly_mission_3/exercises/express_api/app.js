@@ -70,3 +70,7 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
 
+/*RECORDATORIO IMPORTANTE:
+
+Para usar curl en powershell necesitamos usar curl.exe <<>> en vez de curl
+unicamente*/
