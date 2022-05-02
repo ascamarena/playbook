@@ -28,3 +28,15 @@ app.get('/explorersInNode', (req, res)=>{
     const explorer = {name: "Explorer", msg: "Hello"}
     res.send(explorer)
 })
+
+/*Agrega una nueva ruta, indica que recibirá un parámetro: /explorers/:explorerName, 
+esto indicará que :explorerName será un valor enviado por la url.
+El objeto req contiene la propiedad params, esta propiedad contiene los Query Params (parámetros) 
+enviados por la url. (req.params)*/
+
+//Query Params: Recibir parámetros por la url
+//req.params = {'explorerName':'Carlo'}
+app.get('/explorers/:explorerName', (req, res)=>{
+    console.log(req.params)
+    res.send(req.params)
+})
