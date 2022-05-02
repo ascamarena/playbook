@@ -38,7 +38,30 @@ app.get('/v1/explorers/:id', (req, res) => {
 app.post('/v1/explorers', (req, res) => {
     console.log(`API explorers POST request ${new Date()}`)
     const requestBody = req.body // Parámetros de un cliente
-    res.status(201).json({message: "Created"})
+    /*
+El código de respuesta de estado de éxito creado HTTP 201 Created indica que la solicitud ha tenido éxito
+y ha llevado a la creación de un recurso. El nuevo recurso se crea efectivamente antes de enviar esta 
+respuesta. y el nuevo recurso se devuelve en el cuerpo del mensaje, su ubicación es la URL de la solicitud
+o el contenido del encabezado de la Ubicación.
+
+El caso de uso común de este código de estado es el resultado de una solicitud metodo POST*/
+    res.status(201).json({message: "Created"}) 
+})
+
+//Crea un endpoint (PUT) que se encargue de actualizar un explorer
+app.put('/v1/explorers/:id', (req, res)=>{
+    console.log(`API Explorers PUT request ${new Date()}`)
+    console.log(`Update explorer with id ${req.params.id}`)
+    const requestBody = req.body //Parámetros de un cliente 
+    res.status(200).json({message: "Updated!"})
+})
+
+//Crea un endpoint (DELETE) para eliminar un explorer
+app.delete('/v1/explorers/:id', (req, res)=>{
+    console.log(`API Explorers DELETE request ${new Date()}`)
+    console.log(`Delete explorer with id ${req.params.id}`)
+    const requestBody = req.body //Parámetros de un cliente
+    res.status(200).json({message: "Deleted!"})
 })
 
 
